@@ -1,0 +1,167 @@
+PYTHON LIBRARIES AND DEPENDENCIES
+Sales Data Analysis Project
+
+
+PROJECT DEPENDENCIES
+
+
+1. PROJECT OVERVIEW
+
+This document lists the Python libraries and dependencies identified
+for running the "Sales Data Analysis" Jupyter Notebook project.
+
+The notebook uses four external Python packages for data analysis,
+numerical processing, and visualization. It also uses one Python
+standard-library module.
+
+2. EXTERNAL PYTHON PACKAGES
+
+A. pandas
+   Package name: pandas
+   Import: import pandas as pd
+   Purpose:
+   - Loading and working with tabular data
+   - Data cleaning and preprocessing
+   - Data manipulation and transformation
+   - Data analysis using DataFrames and Series
+
+B. NumPy
+   Package name: numpy
+   Import: import numpy as np
+   Purpose:
+   - Numerical calculations
+   - Array and numerical data handling
+   - Supporting mathematical operations used during analysis
+
+C. Matplotlib
+   Package name: matplotlib
+   Import: import matplotlib.pyplot as plt
+   Purpose:
+   - Creating charts and plots
+   - Visualizing sales-analysis results
+   - Supporting graphical presentation of analytical findings
+
+D. Seaborn
+   Package name: seaborn
+   Import: import seaborn as sns
+   Purpose:
+   - Statistical data visualization
+   - Creating enhanced analytical charts
+   - Working with pandas DataFrames for visualization
+
+3. PYTHON STANDARD-LIBRARY MODULE
+
+warnings
+Import: import warnings
+
+Purpose:
+- Controlling warning messages generated while executing Python code
+- Managing or suppressing warnings during notebook execution
+
+IMPORTANT:
+The "warnings" module is part of Python's standard library.
+It does NOT need to be installed separately with pip.
+
+4. PACKAGE SUMMARY
+
+External packages required:
+    pandas
+    numpy
+    matplotlib
+    seaborn
+
+Standard-library module:
+    warnings
+
+Total external packages: 4
+Total standard-library modules listed: 1
+
+
+PAGE 2 — INSTALLATION AND REQUIREMENTS
+
+
+5. INSTALLATION COMMAND
+
+Install all required external packages using:
+
+pip install pandas numpy matplotlib seaborn
+
+For a Python 3 environment, the following command may also be used:
+
+python -m pip install pandas numpy matplotlib seaborn
+
+6. REQUIREMENTS.TXT CONTENT
+
+The project can use the following requirements.txt file:
+
+pandas
+numpy
+matplotlib
+seaborn
+
+7. SETUP STEPS
+
+Step 1:
+Install Python 3 and ensure that Python and pip are available
+on the system.
+
+Step 2:
+Open Command Prompt, Terminal, or a suitable Python environment.
+
+Step 3:
+Install the dependencies with:
+
+pip install pandas numpy matplotlib seaborn
+
+Step 4:
+Launch Jupyter Notebook or JupyterLab.
+
+Step 5:
+Open:
+
+Sales Data Analysis.ipynb
+
+Step 6:
+Run the notebook cells in sequence.
+
+8. LIBRARY REFERENCE TABLE
+
+Library       Import                         Main Use
+
+pandas        import pandas as pd            Data analysis
+numpy         import numpy as np             Numerical operations
+matplotlib    import matplotlib.pyplot as plt
+                                             Plotting/graphs
+seaborn       import seaborn as sns          Data visualization
+warnings      import warnings                Warning management
+                                             (standard library)
+
+9. IMPORTANT NOTES
+
+- pandas, numpy, matplotlib, and seaborn are third-party packages
+  and must be installed if they are not already available.
+- warnings is included with Python and requires no separate
+  installation.
+- The requirements.txt file should contain only the external
+  packages listed above.
+- Package versions were not specified in the identified notebook
+  dependency list. Therefore, this document does not invent or
+  assign specific versions.
+
+10. FINAL DEPENDENCY LIST
+
+Required external dependencies:
+
+    pandas
+    numpy
+    matplotlib
+    seaborn
+
+Python standard library:
+
+    warnings
+
+Installation command:
+
+    pip install pandas numpy matplotlib seaborn
+
